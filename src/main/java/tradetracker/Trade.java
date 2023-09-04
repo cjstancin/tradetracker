@@ -13,18 +13,13 @@ public class Trade {
 	@Getter @Setter private String transaction_date;
 	@Getter @Setter private String owner;
 	@Getter @Setter private String ticker;
-	@Getter @Setter private String asset_description;
-	@Getter @Setter private String asset_type;
 	@Getter @Setter private String type;
 	@Getter @Setter private String amount;
-	@Getter @Setter private String comment;
 	@Getter @Setter private String party;
 	@Getter @Setter private String state;
-	@Getter @Setter private String industry;
-	@Getter @Setter private String sector;
 	@Getter @Setter private String name;
-	@Getter @Setter private String ptr_link;
 	@Getter @Setter private String disclosure_date;
+	@Getter @Setter private String price;
 	
 	public Trade() {
 		
@@ -54,22 +49,6 @@ public class Trade {
 		this.ticker = ticker;
 		}
 
-		public String getAssetDescription() {
-		return asset_description;
-		}
-
-		public void setAssetDescription(String assetDescription) {
-		this.asset_description = assetDescription;
-		}
-
-		public String getAssetType() {
-		return asset_type;
-		}
-
-		public void setAssetType(String assetType) {
-		this.asset_type = assetType;
-		}
-
 		public String getType() {
 		return type;
 		}
@@ -86,12 +65,12 @@ public class Trade {
 		this.amount = amount;
 		}
 
-		public String getComment() {
-		return comment;
+		public String getPrice() {
+		return price;
 		}
 
-		public void setComment(String comment) {
-		this.comment = comment;
+		public void setPrice(String price) {
+		this.price = price;
 		}
 
 		public String getParty() {
@@ -110,36 +89,12 @@ public class Trade {
 		this.state = state;
 		}
 
-		public String getIndustry() {
-		return industry;
-		}
-
-		public void setIndustry(String industry) {
-		this.industry = industry;
-		}
-
-		public String getSector() {
-		return sector;
-		}
-
-		public void setSector(String sector) {
-		this.sector = sector;
-		}
-
-		public String getname() {
+		public String getName() {
 		return name;
 		}
 
-		public void setname(String name) {
+		public void setName(String name) {
 		this.name = name;
-		}
-
-		public String getPtrLink() {
-		return ptr_link;
-		}
-
-		public void setPtrLink(String ptrLink) {
-		this.ptr_link = ptrLink;
 		}
 
 		public String getDisclosureDate() {
