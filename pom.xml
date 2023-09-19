@@ -5,7 +5,14 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>tradetracker</name>
   
+  
   <dependencies>
+	  
+	  <dependency>
+		<groupId>org.robolectric</groupId>
+		<artifactId>android-luni</artifactId>
+		<version>4.1.2_r1_rc</version>
+	</dependency>
 	  <!-- https://mvnrepository.com/artifact/org.json/json -->
 	<dependency>
 	    <groupId>org.json</groupId>
